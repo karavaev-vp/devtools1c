@@ -1,0 +1,15 @@
+<config xmlns="http://v8.1c.ru/v8/tech-log">
+<dump location="d:\v8\dumps" create="1" type="3" />
+<log location="d:\v8\logs" history="48">
+    <event>
+        <eq property="name" value="excp"/>
+    </event>
+    <event>
+        <eq property="name" value="proc"/>
+    </event>
+    <event>
+        <eq property="name" value="admin"/>
+    </event>    
+	<property name="all" />
+ </log>
+</config>
